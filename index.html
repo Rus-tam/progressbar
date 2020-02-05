@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <title>A6.8 Progress bar</title>
+  </head>
+  <body>
+
+    <div class="container">
+      <div id="myProgress" class="progress">
+        <div id="myBar" class="progress-bar bg-success progress-bar-striped progress-bar-animated">
+          <div id="label">1%</div>
+        </div>
+      </div>
+      <br>
+      <button onclick="onePercent()" class="d-block mx-auto">+1%</button>
+      <br>
+      <button onclick="threePercent()" class="d-block mx-auto">+3%</button>
+      <br>
+      <button onclick="sevenPercent()" class="d-block mx-auto">+7%</button>
+    </div>
+
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
